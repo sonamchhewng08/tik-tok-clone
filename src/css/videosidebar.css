@@ -1,0 +1,9 @@
+.video_sidebar{
+    position: absolute;
+    top: 45%;
+    right: 10px;
+}
+.videosidebar_icon{
+    padding: 10px;
+    text-align: center;
+}

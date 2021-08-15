@@ -1,0 +1,36 @@
+.video_footer{
+    position: relative;
+    bottom: 130px;
+    padding: 20px;
+    display: flex;
+}
+.videofooter_text{
+    flex: 1;
+}
+.videofooter_text >p{
+    padding: 10px 0;
+}
+.videofooter_logo{
+    animation: spin infinite 5s linear;
+    filter: invert(1);
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    height: 50px;
+}
+.videofooter_ticker> .ticker{
+    height: fit-content;
+    margin-left: 19px;
+    width: 80%;
+}
+.videofooter_icon{
+    position: absolute;
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+    
+}
